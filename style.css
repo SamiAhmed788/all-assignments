@@ -1,0 +1,55 @@
+
+body{
+    background-color: rgb(240, 243, 243);
+}
+
+*{
+    margin: 0%;
+ box-sizing: border-box;
+    padding: 0;
+}
+.grocery{
+display: flex;
+justify-content: center;
+align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+margin: 100px auto 300px auto ;
+width: 300px;
+height: auto;
+background-color:white;
+box-shadow: 0 10px 10px 0 rgb(198, 203, 211);
+
+
+
+}
+#inputlist{
+    width: 150px;
+    height: 15px;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#submit{
+    width: 50px;
+    height: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
+}
+li{
+    list-style-type: none;
+}
+
+.listButton {
+    color: blue;
+  padding-left: 160px;
+  
+}
+
+.listButton2 {
+    color: rgb(255, 0, 0)
+
+  
+}
